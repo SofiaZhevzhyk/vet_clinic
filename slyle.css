@@ -1,0 +1,183 @@
+body{
+    font-family: 'Shantell Sans', cursive;
+    background-color: rgb(200, 172, 231);
+    margin: 0;
+}
+.fon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.toptext{
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+.meddiumtext{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+} 
+.bottomtext{
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.right {
+   background-color: white; 
+   background-image: url(cat.png);
+   background-repeat: no-repeat;
+   background-position: bottom 40px right;
+   border-bottom-left-radius: 20px;
+   margin: 0;
+   border-top-left-radius: 20px;
+   padding: 30px 70px;
+   min-height: 75%;
+   background-size: 550px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftmeny{
+    display: flex;
+    align-items: center;
+}
+.leftmeny img{
+    height: 100px;
+    width: 100px;
+    
+}
+.toptextmeny{
+    font-size: 20px;
+    margin: 0;
+}
+.bottomtextmeny{
+    font-size: 10px;
+    margin: 0;
+}
+.rightmeny a{
+    font-size: 20px;
+    margin-right: 50px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.rightmeny a:hover{
+    color: rgb(156, 156, 156);
+    
+}
+.bottomlefttop p{
+    font-size: 50px;
+    margin: 0;
+    color:rgb(255, 161, 176);
+    font-weight: 600px;
+}
+.bottomlefttop{
+    margin-top: 50px;
+}
+.bottomleftmeddium{
+    margin: 0;
+    margin-top: 40px;
+    font-size: 11px;
+    width: 70%;
+    
+}
+.bottomleft{
+    width: 70%;
+}
+.bottomleftbottom{
+    height: 57px;
+    width: 216px;
+    margin-top: 40px;
+    border: 0;
+    padding: 0;
+    background-image: linear-gradient( rgb(249, 184, 195),rgb(249, 113, 134));
+    border-radius: 90px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0px 9px 15px rgb(247, 183, 194);
+    border-left: 5px solid rgb(249, 113, 134);
+    border-right: 5px solid rgb(249, 113, 134);
+    transition: all 1s;
+}
+.bottomleftbottom:hover{
+    background-image: linear-gradient( rgb(211, 153, 163),rgb(208, 93, 110));
+    color: rgb(205, 205, 205);
+    box-shadow: 0px 9px 15px rgb(212, 154, 164);
+    border-left: 5px solid rgb(228, 105, 123);
+    border-right: 5px solid rgb(228, 105, 123);
+    transform: scale(1.2);
+}
+i{
+    color: rgb(200, 172, 231);
+    font-size: 50px;
+}
+.line{
+    height: 5px;
+    width: 160px;
+    background-color:rgb(255, 161, 176);
+    border-radius: 20px;
+    transform: translate(160px, -36px);
+}
+.i1{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    opacity: 0.5;
+    transform: rotate(-30deg);
+}
+.i2{
+    position: absolute;
+    bottom: 30%;
+    left: 32%;
+    opacity: 0.2;
+    transform: rotate(-20deg);
+}
+.i3{
+    position: absolute;
+    bottom: 40%;
+    left: 28%;
+    opacity: 0.5;
+    transform: rotate(-20deg);
+}
+.i4{
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+    opacity: 0.2;
+    transform: rotate(10deg);
+}  
+.i5{
+    position: absolute;
+    bottom: 62%;
+    left: 29%;
+    opacity: 0.5;
+    transform: rotate(15deg);
+}
+.i6{
+    position: absolute;
+    bottom: 65%;
+    left: 40%;
+    opacity: 0.5;
+    transform: rotate(35deg);
+}
+.i7{
+    position: absolute;
+    bottom: 70%;
+    left: 33%;
+    opacity: 0.2;
+    transform: rotate(35deg);
+}
+.i8{
+    position: absolute;
+    bottom: 74%;
+    left: 38%;
+    opacity: 0.3;
+    transform: rotate(35deg);
+}
